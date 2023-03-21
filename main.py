@@ -17,6 +17,7 @@ def generate_report_from(file_contents):
     ):
         if char.isalpha():
             print(f"The '{char}' character was found {count} times")
+    print("--- End report ---")
 
 
 with open("books/frankenstein.txt") as f:
